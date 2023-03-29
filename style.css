@@ -26,20 +26,32 @@ img{
     width: 55%;
     outline: none;
     border-radius: 60px;
+    color: white;
     box-shadow: -26px -19px 30px -19px rgba(0, 0, 0, 0.45);
-    background: radial-gradient(circle, rgba(103,178,241,1) 9%, rgba(150,233,148,1) 61%);
+    background: radial-gradient(circle, rgb(226, 135, 56) 9%, rgb(226, 56, 56) 61%);
 }
+.inp::-webkit-input-placeholder { /* Edge */
+    color: white;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  ::placeholder {
+    color: white;
+  }
 
 .btn1{
     width: 200px;
     height: 40px;
     border: none;
     border-radius: 60px;
-    background-color: #0a9e97;
+    background-color: rgb(226, 56, 56);
     color: white;
 }
 .btn1:hover{
-    background-color:#27bb94 ;
+    background-color:rgb(226, 135, 56) ;
     transition: linear 0.5s;
 }
 .fa-facebook{
@@ -79,6 +91,6 @@ img{
  }
  p{
     padding-top: 30px;
-    color: darkgreen;
+    color: orange;
     
  }
